@@ -1,0 +1,39 @@
+{% extends "accounts/base.html" %}
+
+{% block body%}
+{% load static %}
+<head>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<link rel="stylesheet" type="text/css" href="{% static "/accounts/css/home.css" %}">
+</head>
+<div class="home">
+	<div class="quot-frame">
+ 		<p id="quotation"><span>"</span> Try not to become a person of success, but rather try to become a person of value <span>"</span>
+ 			<br><span> - Albert Einstein</span>
+ 		</p>
+ 		<p id="info">Become a person of value by acknowlegding the talks of our great Speakers.</p>
+ 	</div>	
+
+<div class="container">
+  	<div class="row">
+  		<div class="col-sm-6 tedx">
+	 		<h1>TEDx</h1>	
+      	</div>
+		<div class="col-sm-6 frame1">
+			<img src="media/network.png">
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 frame2">
+			<img src="media/running.png">
+		</div>
+	
+    	<div class="col-sm-6 nitw">
+	    	<h1>NITW</h1>		
+		</div>
+	</div>
+ </div>
+ 		
+</div>
+{% endblock %}

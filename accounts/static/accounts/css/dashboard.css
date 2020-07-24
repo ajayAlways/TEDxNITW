@@ -1,0 +1,76 @@
+body{
+	background-color: #fff;
+}
+.wish{
+	margin: 20px 0px;
+	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0.2),0 -4px -8px 0 rgba(0,0,0,0.19);
+	font-family: 'Abril Fatface', cursive;
+	padding:50px;
+	background-color:#17141D;
+	border-radius:20px;
+	color: #C2C2C2;
+}
+.wish:hover{
+	color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.19);
+}
+
+.profile{
+	align-items: center;
+	text-align: center;
+	color: red;
+}
+
+.profile img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border:10px solid #096b99;
+    margin:30px 0px;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.3),0px 5px 10px 0px rgba(0,0,0,0.29);
+    transition:1.25s;
+}
+
+.profile img:hover{
+	transform: rotate(360deg);
+}
+
+.profile span{
+	font-family: 'Fondamento', cursive;
+	letter-spacing: 1px;
+	text-shadow:2px 1px 1px rgba(0,0,0,0.2);
+	font-size:50px;
+	color:black;
+}
+
+.details{
+	text-align: center;
+	font-size:30px;
+	margin-: 40px 0px;
+}
+#tag{
+	color:orange;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+	font-family:'Abril Fatface',arial;
+	transition:2.5s;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px; 
+}
+#tag:hover{
+	transform:rotateX(360deg);
+}
+.detail{
+	margin: 25px 0px;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+	background-color:#8402a8;
+	text-align: center;
+	padding:10px;
+	transition: 0.5s;
+	color: #fff;
+}
+.detail:hover{
+	transform:translateX(20px);
+
+}

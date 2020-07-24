@@ -1,0 +1,36 @@
+{% extends "accounts/base.html" %}
+
+{% block body %}
+{% load static %}
+<head>
+	<link rel="stylesheet" type="text/css" href="{% static "/accounts/css/dashboard.css" %}">
+</head>
+<div class="container">
+	<div class="wish">
+		<h1>Hello! Welcome {{ username }}</h1>
+	</div>
+
+	<div class="profile">
+		{% if request.user.profile.profile_pic %}
+		<img src="{{request.user.profile.profile_pic.url}}" alt="profile pic">
+		{% else %}
+		<img src="https://moonvillageassociation.org/wp-content/uploads/2018/06/default-profile-picture1.jpg">
+		{% endif %}
+			<h1>____"<span>{{username}}</span>"____</h1>
+		<hr>
+	</div>
+
+	<div class="details">
+		<h1 id="tag">Personal Info</h1>
+		{% if firstname and lastname is not None %}
+			<p class="detail">{{firstname}} {{lastname}}</p>
+		{% endif%}
+		{% if email is not None %}
+			<p class="detail">{{ email }}</p>
+		{% endif%}
+		{% if phone_no is not None %}
+			<p class="detail">{{phone_no}}</p>
+		{% endif%}
+	</div>
+</div>
+{% endblock %}

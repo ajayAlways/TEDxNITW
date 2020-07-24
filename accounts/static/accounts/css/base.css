@@ -1,0 +1,50 @@
+body{
+	background-color:#fff;
+	font-family: 'EB Garamond', serif;
+	font-size:20px;
+}
+
+.nav-item,.dropdown-item{
+	font-size: 20px;
+	cursor: pointer;
+	font-family: 'EB Garamond', serif;
+}
+.navbar-brand{
+	font-size: 30px;
+	font-family: 'Abril Fatface', cursive;
+
+}
+nav span{
+	color:#cc0014;
+	text-shadow:2px 2px 5px rgba(0,0,0,0.2);	
+}
+.contact{
+	background-color: #005591;
+	padding-top:50px;
+	padding-bottom:10px;
+	text-align: center;
+}
+.contact p{
+	color: black;
+	font-size:15px;
+	font-family:sans-serif;
+}
+#clg{
+	border-top:2px solid orange;
+	padding: 20px;
+	border-bottom:2px solid orange;
+	font-size: 30px; 
+	word-spacing: 5px;
+	color:#bababa;
+	margin-bottom:20px;
+}
+#credit{
+	color:#FFFFFF;
+	font-size: 25px;
+	margin:15px 0px;
+	font-weight: bold;
+
+}
+#credit span{
+	color: red;
+} 
