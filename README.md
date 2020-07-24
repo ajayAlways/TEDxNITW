@@ -13,5 +13,6 @@
   1. Django
   2. Sqlite3 - database 
 ````
-
+### Deployment Platform - HEROKU
+Link for the app : -
 [TEDxNITW](https://tedxnitw.herokuapp.com)
