@@ -11,7 +11,7 @@
 ##  Back-end:
 ```
   1. Django
-  2. Sqlite3 - database 
+  2. Postgresql - database 
 ````
 ### Deployment Platform - HEROKU
 Link for the app : -
